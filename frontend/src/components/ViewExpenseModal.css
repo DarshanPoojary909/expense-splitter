@@ -1,0 +1,154 @@
+.view-expense-modal {
+  max-width: 650px;
+  width: 90%;
+  max-height: 90vh;
+  overflow-y: auto;
+}
+
+.view-modal-title-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.view-category-icon {
+  font-size: 2rem;
+  background: #f1f5f9;
+  padding: 8px;
+  border-radius: 12px;
+}
+
+.view-date-subtitle {
+  font-size: 0.8rem;
+  color: #64748b;
+  margin-top: 2px;
+  display: block;
+}
+
+.view-amount-hero {
+  background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
+  color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 18px;
+}
+
+.view-currency-label {
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #94a3b8;
+}
+
+.view-amount-val {
+  font-size: 2rem;
+  font-weight: 800;
+  color: #38bdf8;
+}
+
+.view-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.view-grid-item {
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  padding: 12px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.view-label {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  color: #64748b;
+  font-weight: 700;
+}
+
+.view-value {
+  font-size: 0.95rem;
+  color: #0f172a;
+  font-weight: 600;
+}
+
+.category-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.payer-highlight {
+  color: #16a34a;
+}
+
+.split-badge {
+  background: #e0f2fe;
+  color: #0369a1;
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+.view-section-box {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  padding: 14px;
+  border-radius: 8px;
+  margin-bottom: 14px;
+}
+
+.view-section-box h4 {
+  margin: 0 0 10px 0;
+  font-size: 0.85rem;
+  color: #334155;
+  text-transform: uppercase;
+}
+
+.view-payers-list {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.view-payer-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6px 10px;
+  background: #f8fafc;
+  border-radius: 6px;
+  font-size: 0.88rem;
+}
+
+.view-notes-text {
+  margin: 0;
+  color: #475569;
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+.view-timestamps-footer {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.75rem;
+  color: #94a3b8;
+  border-top: 1px solid #e2e8f0;
+  padding-top: 10px;
+  margin-top: 16px;
+}
+
+.view-participants-text {
+  margin: 0;
+  font-size: 0.95rem;
+  color: #1e293b;
+  font-weight: 500;
+}

@@ -1,0 +1,124 @@
+.activity-view {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.activity-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.activity-header h2 {
+  margin: 0 0 4px 0;
+  color: #1e293b;
+  font-size: 1.5rem;
+}
+
+.activity-sub {
+  margin: 0;
+  color: #64748b;
+  font-size: 0.9rem;
+}
+
+.activity-filter-bar {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: #ffffff;
+  padding: 6px 12px;
+  border-radius: 8px;
+  border: 1px solid #cbd5e1;
+}
+
+.activity-filter-bar select {
+  padding: 6px 10px;
+  border-radius: 6px;
+  border: 1px solid #cbd5e1;
+  font-weight: 500;
+}
+
+.timeline-feed {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.timeline-item {
+  display: flex;
+  gap: 14px;
+  background: #ffffff;
+  padding: 14px 18px;
+  border-radius: 10px;
+  border: 1px solid #e2e8f0;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+  transition: transform 0.1s ease;
+}
+
+.timeline-item:hover {
+  transform: translateX(2px);
+}
+
+.timeline-icon-box {
+  width: 44px;
+  height: 44px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.3rem;
+  flex-shrink: 0;
+}
+
+.timeline-content {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  flex: 1;
+}
+
+.timeline-top-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.action-tag {
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  padding: 1px 6px;
+  border-radius: 4px;
+  border: 1px solid;
+}
+
+.timeline-group-tag {
+  font-size: 0.8rem;
+  color: #475569;
+  background: #f1f5f9;
+  padding: 2px 8px;
+  border-radius: 4px;
+}
+
+.timeline-date {
+  margin-left: auto;
+  font-size: 0.8rem;
+  color: #94a3b8;
+}
+
+.timeline-desc {
+  margin: 2px 0;
+  color: #1e293b;
+  font-size: 0.95rem;
+  line-height: 1.4;
+}
+
+.timeline-actor {
+  font-size: 0.8rem;
+  color: #64748b;
+}

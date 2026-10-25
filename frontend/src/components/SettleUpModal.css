@@ -1,0 +1,151 @@
+.settle-up-modal {
+  max-width: 600px;
+  width: 95%;
+}
+
+.settle-header-title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.settle-header-title h2 {
+  margin: 0;
+  font-size: 1.3rem;
+  color: #0f172a;
+}
+
+.settle-icon {
+  font-size: 1.6rem;
+}
+
+.status-banner-coming-soon {
+  background: #eff6ff;
+  border: 1px solid #bfdbfe;
+  border-radius: 10px;
+  padding: 16px;
+  margin-top: 14px;
+}
+
+.badge-roadmap {
+  background: #2563eb;
+  color: #ffffff;
+  font-size: 0.72rem;
+  font-weight: 700;
+  padding: 2px 8px;
+  border-radius: 9999px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  display: inline-block;
+  margin-bottom: 6px;
+}
+
+.status-banner-coming-soon h3 {
+  margin: 0 0 6px 0;
+  font-size: 1.05rem;
+  color: #1e3a8a;
+}
+
+.status-banner-coming-soon p {
+  margin: 0;
+  font-size: 0.86rem;
+  color: #3b82f6;
+  line-height: 1.4;
+}
+
+.roadmap-timeline {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin: 20px 0;
+}
+
+.timeline-step {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.step-circle {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 0.85rem;
+  flex-shrink: 0;
+}
+
+.timeline-step.completed .step-circle {
+  background: #dcfce7;
+  color: #15803d;
+  border: 1px solid #86efac;
+}
+
+.timeline-step.current .step-circle {
+  background: #2563eb;
+  color: #ffffff;
+}
+
+.timeline-step.upcoming .step-circle {
+  background: #f1f5f9;
+  color: #94a3b8;
+  border: 1px solid #cbd5e1;
+}
+
+.step-content {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.step-content strong {
+  font-size: 0.9rem;
+  color: #1e293b;
+}
+
+.step-content span {
+  font-size: 0.8rem;
+  color: #64748b;
+}
+
+.active-groups-summary {
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  padding: 12px;
+}
+
+.active-groups-summary h4 {
+  margin: 0 0 8px 0;
+  font-size: 0.88rem;
+  color: #334155;
+}
+
+.settle-groups-list {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.settle-group-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #ffffff;
+  padding: 6px 10px;
+  border-radius: 6px;
+  border: 1px solid #e2e8f0;
+  font-size: 0.85rem;
+}
+
+.settle-currency-pill {
+  background: #e0f2fe;
+  color: #0369a1;
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 2px 6px;
+  border-radius: 4px;
+}

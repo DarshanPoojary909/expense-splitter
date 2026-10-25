@@ -1,0 +1,56 @@
+.add-expense-modal {
+  max-width: 580px;
+  width: 95%;
+}
+
+.expense-form-modal {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 14px;
+}
+
+.expense-form-modal .form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  text-align: left;
+}
+
+.expense-form-modal label {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #475569;
+}
+
+.expense-form-modal input,
+.expense-form-modal select,
+.expense-form-modal textarea {
+  padding: 10px 12px;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  outline: none;
+  transition: border-color 0.2s;
+  background: #ffffff;
+  box-sizing: border-box;
+}
+
+.expense-form-modal input:focus,
+.expense-form-modal select:focus,
+.expense-form-modal textarea:focus {
+  border-color: #2563eb;
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.12);
+}
+
+.expense-form-modal .form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+}
+
+@media (max-width: 560px) {
+  .expense-form-modal .form-row {
+    grid-template-columns: 1fr;
+  }
+}

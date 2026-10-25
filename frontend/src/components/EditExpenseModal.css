@@ -1,0 +1,12 @@
+.edit-expense-modal {
+  max-width: 580px;
+  width: 90%;
+  max-height: 90vh;
+  overflow-y: auto;
+}
+
+.edit-expense-form {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
